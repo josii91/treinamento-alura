@@ -1,0 +1,38 @@
+<meta charset="UTF-8">
+
+<h3>Álcool ou Gasolina?</h3>.
+
+<script>
+	var puloLinha = "<br>" 
+	var tanque = 40
+	var caminhoComGasolina = 480;
+	var consumoDeGasolina = caminhoComGasolina/tanque;
+	var caminhoComAlcool = 300;
+	var consumoDeAlcool = caminhoComAlcool/tanque;
+	document.write("O consumo de gasolina é igual a " + consumoDeGasolina + " Km/L" + puloLinha);
+	document.write("O consumo de álcool é igual a " + consumoDeAlcool + " Km/L"
+	+ puloLinha);
+
+	function mostra(nome) {
+		document.write(nome);
+
+	}
+
+	mostra("Josi tem 30 anos");
+	document.write("<br>");
+
+
+	function pulaLinha() {
+		document.write("<br>");
+	}
+
+	function mostraIdade(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+	
+	var minhaIdade = 30;
+	var idadeIrma = 28;
+	mostraIdade("Nossa diferença de idade é " + (minhaIdade - idadeIrma));
+</script>
+
